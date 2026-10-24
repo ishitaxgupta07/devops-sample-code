@@ -1,10 +1,10 @@
+﻿
+
+# Hello World Jenkins Job
 
 
-\# Hello World Jenkins Job
 
-
-
-\## 1. Project Overview
+## 1. Project Overview
 
 
 
@@ -16,7 +16,7 @@ The project introduces the basic concepts of Continuous Integration (CI), source
 
 
 
-\## 2. Objectives
+## 2. Objectives
 
 
 
@@ -34,7 +34,7 @@ The project introduces the basic concepts of Continuous Integration (CI), source
 
 
 
-\## 3. Tools and Technologies
+## 3. Tools and Technologies
 
 
 
@@ -52,7 +52,7 @@ The project introduces the basic concepts of Continuous Integration (CI), source
 
 
 
-\## 4. GitHub Repository
+## 4. GitHub Repository
 
 
 
@@ -72,7 +72,7 @@ The repository contains the `hello-world.sh` script used by the Jenkins job.
 
 
 
-\## 5. Creating the Shell Script
+## 5. Creating the Shell Script
 
 
 
@@ -82,7 +82,7 @@ A file named `hello-world.sh` was created with the following content:
 
 ```bash
 
-\#!/bin/bash
+#!/bin/bash
 
 echo "Hello, Jenkins!"
 
@@ -94,7 +94,7 @@ The first line identifies Bash as the intended interpreter. The `echo` command p
 
 
 
-\## 6. Git Initialization and Commit
+## 6. Git Initialization and Commit
 
 
 
@@ -134,7 +134,7 @@ These commands establish version control and publish the script to the remote re
 
 
 
-\## 7. Jenkins Job Configuration
+## 7. Jenkins Job Configuration
 
 
 
@@ -142,7 +142,7 @@ A Jenkins Freestyle project named `HelloWorld` was created.
 
 
 
-\### Source Code Management
+### Source Code Management
 
 
 
@@ -160,7 +160,7 @@ The job was configured to retrieve code from GitHub.
 
 
 
-\### Build Step
+### Build Step
 
 
 
@@ -184,7 +184,7 @@ Jenkins executes this command from the job's workspace after checking out the re
 
 
 
-\## 8. Build Execution
+## 8. Build Execution
 
 
 
@@ -196,7 +196,7 @@ Jenkins retrieved the repository, checked out the `main` branch, and executed th
 
 
 
-\### Console Output
+### Console Output
 
 
 
@@ -226,7 +226,7 @@ The revision identifier and temporary script path may vary between builds.
 
 
 
-\## 9. Result
+## 9. Result
 
 
 
@@ -250,7 +250,7 @@ The Console Output confirmed that:
 
 
 
-\## 10. Conclusion
+## 10. Conclusion
 
 
 
@@ -262,7 +262,7 @@ The successful build confirms that the GitHub integration and shell-script execu
 
 
 
-\## 11. Future Enhancements
+## 11. Future Enhancements
 
 
 
@@ -275,6 +275,7 @@ The successful build confirms that the GitHub integration and shell-script execu
 \- Create a Jenkins Pipeline using a `Jenkinsfile`.
 
 \- Add build notifications and reporting.
+
 
 
 
